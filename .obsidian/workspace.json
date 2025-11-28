@@ -1,0 +1,273 @@
+{
+  "main": {
+    "id": "9fb8e1707b7e886b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9f02f81d3902fcb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "978515dabd96cdb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "htb stuff/Network Enumeration with Nmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Network Enumeration with Nmap"
+            }
+          },
+          {
+            "id": "99b021a6f48cfb89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "code/Java script.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java script"
+            }
+          },
+          {
+            "id": "e6d1615ec6a9d835",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "40a5ee793224041c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "port swiggger/XSS ( Cross-site scripting ).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "XSS ( Cross-site scripting )"
+            }
+          },
+          {
+            "id": "006959c73f6e8dfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "stuff to be completed in htb.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "stuff to be completed in htb"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d6529e7a6d95142",
+    "type": "split",
+    "children": [
+      {
+        "id": "37484db6899f9c6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f08922ef637c9fb8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "99ac75206efc4227",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b9bb06ecd40701e7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "58fba7159ca2e484",
+    "type": "split",
+    "children": [
+      {
+        "id": "400ac09951d89d31",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3ab8dd470925214",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "7512609658423d9e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "e5ecff4b1945e1ff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3dc8face8c4c90f7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "006959c73f6e8dfa",
+  "lastOpenFiles": [
+    "Untitled.base",
+    "Untitled.md",
+    "Untitled 1.base",
+    "Untitled 2.base",
+    "port swiggger/SSRF.md",
+    "port swiggger/API testing.md",
+    "htb stuff/Attacking web application with Ffuf.md",
+    "XSS/payload explantion.md",
+    "XSS/portswigger labs.md",
+    "XSS/Reflected XSS.md",
+    "XSS/Stored XSS.md",
+    "XSS/XSS definition.md",
+    "WEB EXPLOITATION/INFORMATION.md",
+    "Stuff learned from the CTF/SSRF ( SERVER-SIDE REQUEST FORGERY).md",
+    "port swiggger/SSTI.md",
+    "port swiggger/Path traversal.md",
+    "port swiggger/jwt token.md",
+    "networks/OS.md",
+    "networks/Computer Networks.md",
+    "MYSQL/commands.md",
+    "java/notes.md",
+    "htb stuff/Vulnerability Assessment.md",
+    "htb stuff/Network Enumeration with Nmap.md",
+    "htb stuff/METASPLOIT FRAMEWORK.md",
+    "Forensic/Notes.md",
+    "Forensic/Payload.md",
+    "cryto/hash.md",
+    "code/Java script.md",
+    "Pasted image 20251014192243.png",
+    "Pasted image 20251008190929.png",
+    "XSS",
+    "Pasted image 20250630113527.png",
+    "Pasted image 20250612182632.png",
+    "Pasted image 20250605235923.png",
+    "Pasted image 20250604171217.png",
+    "Ai",
+    "networks",
+    "Pasted image 20250818233256.png",
+    "CIT HACKTHON",
+    "Pasted image 20250813222635.png",
+    "Pasted image 20250811231025.png",
+    "Pasted image 20250811231000.png",
+    "java",
+    "Android",
+    "MYSQL"
+  ]
+}
