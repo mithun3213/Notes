@@ -1,4 +1,5 @@
 
+
 ## API recon
 
 To start API testing, you first need to find out as much information about the API as possible, to discover its attack surface.

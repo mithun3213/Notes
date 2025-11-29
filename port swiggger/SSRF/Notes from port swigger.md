@@ -1,4 +1,5 @@
 
+
 **topic:**
 What is SSRF
 Common SSRF attacks
@@ -256,4 +257,5 @@ You send a payload like:
 If the server makes a request to this URL, the Collaborator server logs it.
 
 **If you see a callback → the server is vulnerable to Blind SSRF.**
+
 

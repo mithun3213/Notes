@@ -34,3 +34,9 @@ pause
 to download  only a particular folder from a GitHub repo use the link
 **https://downgit.github.io/**
 
+
+**To find the directory using the fuzz the command is :**
+
+ffuf -u https://chall.polygl0ts.ch:8085/FUZZ -w /home/mithun/SecLists/Discovery/Web-Content/common.txt
+
+ https://chall.polygl0ts.ch:8085 --> replace with the given the url
