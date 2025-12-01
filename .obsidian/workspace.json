@@ -63,16 +63,32 @@
             "id": "006959c73f6e8dfa",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250719154436.png"
+                "file": "stuff to be completed in htb.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250719154436"
+              "icon": "lucide-file",
+              "title": "stuff to be completed in htb"
+            }
+          },
+          {
+            "id": "d1e790a05c08ff6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "stuff to be completed in portswigger.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "stuff to be completed in portswigger"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -220,8 +236,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "006959c73f6e8dfa",
+  "active": "d1e790a05c08ff6e",
   "lastOpenFiles": [
+    "stuff to be completed in htb.md",
+    "stuff to be completed in portswigger.md",
+    "Pasted image 20250719154436.png",
     "Pasted image 20251014192243.png",
     "Pasted image 20250811231000.png",
     "Pasted image 20250719161342.png",
@@ -253,7 +272,6 @@
     "port swiggger/Path traversal",
     "port swiggger/JWT token/Notes from port swigger.md",
     "port swiggger/jwt token.md",
-    "port swiggger/API testing/Notes from port swigger.md",
     "port swiggger/JWT token",
     "port swiggger/API testing",
     "Untitled.base",
@@ -265,8 +283,6 @@
     "Pasted image 20250612182632.png",
     "Pasted image 20250605235923.png",
     "Pasted image 20250604171217.png",
-    "Ai",
-    "Pasted image 20250818233256.png",
-    "Pasted image 20250813222635.png"
+    "Ai"
   ]
 }
