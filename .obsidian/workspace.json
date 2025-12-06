@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "stuff to be completed in portswigger.md",
+                "file": "information.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "stuff to be completed in portswigger"
+              "title": "information"
             }
           }
         ],
@@ -238,8 +238,8 @@
   },
   "active": "d1e790a05c08ff6e",
   "lastOpenFiles": [
-    "stuff to be completed in htb.md",
     "stuff to be completed in portswigger.md",
+    "stuff to be completed in htb.md",
     "Pasted image 20250719154436.png",
     "Pasted image 20251014192243.png",
     "Pasted image 20250811231000.png",
