@@ -40,3 +40,9 @@ to download  only a particular folder from a GitHub repo use the link
 ffuf -u https://chall.polygl0ts.ch:8085/FUZZ -w /home/mithun/SecLists/Discovery/Web-Content/common.txt
 
  https://chall.polygl0ts.ch:8085 --> replace with the given the url
+
+
+## `etc/passwd` on Linux **almost always starts like this**:
+
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
