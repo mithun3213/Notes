@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "port swiggger/XML or XXE/XML.md",
+                "file": "Information/web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XML"
+              "title": "web"
             }
           }
         ],
@@ -234,13 +234,13 @@
   },
   "active": "d1e790a05c08ff6e",
   "lastOpenFiles": [
-    "Information/etc pass.md",
+    "Information/stuff.md",
     "port swiggger/XML or XXE/XML.md",
+    "Information/etc pass.md",
     "Pasted image 20251217112343.png",
     "Information/web.md",
     "need to be learn.md",
     "Pasted image 20250604171217.png",
-    "Information/stuff.md",
     "stuff to be completed in htb.md",
     "stuff to be completed in portswigger.md",
     "port swiggger/XML or XXE",
