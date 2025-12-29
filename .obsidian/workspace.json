@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information/web.md",
+                "file": "BINARY EXPLOITATION/Stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "web"
+              "title": "Stack"
             }
           }
         ],
@@ -234,11 +234,17 @@
   },
   "active": "d1e790a05c08ff6e",
   "lastOpenFiles": [
+    "BINARY EXPLOITATION/COMPUTING 101.md",
+    "BINARY EXPLOITATION/Notes.md",
+    "BINARY EXPLOITATION/Stack.md",
+    "BINARY EXPLOITATION/commands.md",
+    "hardware or firmware/notes.md",
+    "Information/web.md",
+    "hardware or firmware",
     "Information/stuff.md",
     "port swiggger/XML or XXE/XML.md",
     "Information/etc pass.md",
     "Pasted image 20251217112343.png",
-    "Information/web.md",
     "need to be learn.md",
     "Pasted image 20250604171217.png",
     "stuff to be completed in htb.md",
@@ -263,11 +269,7 @@
     "c++/hotel.md",
     "Stuff learned from the CTF/SSRF ( SERVER-SIDE REQUEST FORGERY).md",
     "port swiggger/SSTI/Notes from port swigger.md",
-    "port swiggger/SSTI.md",
     "port swiggger/SSTI",
-    "port swiggger/SSRF/Notes from port swigger.md",
-    "port swiggger/SSRF.md",
-    "port swiggger/Path traversal/Notes from port swigger.md",
     "port swiggger/SSRF",
     "port swiggger/Path traversal",
     "port swiggger/JWT token",
@@ -276,7 +278,6 @@
     "Untitled 1.base",
     "Untitled 2.base",
     "Pasted image 20251008190929.png",
-    "port swiggger/XSS",
     "Pasted image 20250630113527.png",
     "Pasted image 20250612182632.png"
   ]

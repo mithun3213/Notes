@@ -46,3 +46,11 @@ ffuf -u https://chall.polygl0ts.ch:8085/FUZZ -w /home/mithun/SecLists/Discovery/
 
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+
+
+
+
+
+
+
+
