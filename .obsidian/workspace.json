@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information/web.md",
+                "file": "WEB EXPLOITATION/HTTP POOLING.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "web"
+              "title": "HTTP POOLING"
             }
           }
         ],
@@ -234,13 +234,15 @@
   },
   "active": "d1e790a05c08ff6e",
   "lastOpenFiles": [
+    "Information/web.md",
+    "WEB EXPLOITATION/HTTP POOLING.md",
+    "WEB EXPLOITATION",
     "Information/stuff.md",
     "BINARY EXPLOITATION/Stack.md",
     "BINARY EXPLOITATION/COMPUTING 101.md",
     "BINARY EXPLOITATION/Notes.md",
     "BINARY EXPLOITATION/commands.md",
     "hardware or firmware/notes.md",
-    "Information/web.md",
     "hardware or firmware",
     "port swiggger/XML or XXE/XML.md",
     "Information/etc pass.md",
@@ -268,7 +270,6 @@
     "port swiggger/XSS/DOM.md",
     "c++/hotel.md",
     "Stuff learned from the CTF/SSRF ( SERVER-SIDE REQUEST FORGERY).md",
-    "port swiggger/SSTI/Notes from port swigger.md",
     "port swiggger/SSTI",
     "port swiggger/SSRF",
     "port swiggger/Path traversal",
@@ -276,7 +277,6 @@
     "port swiggger/API testing",
     "Untitled.base",
     "Untitled 1.base",
-    "Untitled 2.base",
     "Pasted image 20251008190929.png",
     "Pasted image 20250630113527.png",
     "Pasted image 20250612182632.png"
