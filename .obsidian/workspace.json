@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB EXPLOITATION/HTTP POOLING.md",
+                "file": "BINARY EXPLOITATION/Stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP POOLING"
+              "title": "Stack"
             }
           }
         ],
@@ -232,10 +232,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1e790a05c08ff6e",
+  "active": "f08922ef637c9fb8",
   "lastOpenFiles": [
-    "Information/web.md",
+    "Untitled",
     "WEB EXPLOITATION/HTTP POOLING.md",
+    "Information/web.md",
     "WEB EXPLOITATION",
     "Information/stuff.md",
     "BINARY EXPLOITATION/Stack.md",
@@ -269,7 +270,6 @@
     "Android/Notes.md",
     "port swiggger/XSS/DOM.md",
     "c++/hotel.md",
-    "Stuff learned from the CTF/SSRF ( SERVER-SIDE REQUEST FORGERY).md",
     "port swiggger/SSTI",
     "port swiggger/SSRF",
     "port swiggger/Path traversal",
