@@ -20,6 +20,26 @@ The `loadImage` URL takes a `filename` parameter and returns the contents of
 
 `/var/www/images/218.png`
 
+## What does `/var/www/images/` mean?
+
+###  `/var`
+
+- Stands for **variable data**
+    
+- Used for files that change while the system is running (logs, web files, mail, etc.)
+    
+
+###  `/www`
+
+- Common directory for **website files**
+    
+- Especially used by **Apache** and **Nginx** web servers
+    
+
+###  `/images`
+
+- A **subfolder** meant to store image files used by a website
+
 This application implements no defenses against path traversal attacks. As a result, an attacker can request the following URL to retrieve the `/etc/passwd` file from the server's filesystem:
 
 `https://insecure-website.com/loadImage?filename=../../../etc/passwd`
@@ -28,6 +48,27 @@ This causes the application to read from the following file path:
 
 `/var/www/images/../../../etc/passwd`
 
+## Original vulnerable code:
+
+```
+$file = $_GET['file'];
+readfile("/var/www/images/" . $file);
+```
+
+```
+file=../../../etc/passwd
+/var/www/images/../../../etc/passwd
+```
+
+as it becames,
+
+```
+/var/www/images/        → start here
+../                     → go to /var/www
+../                     → go to /var
+../                     → go to /
+etc/passwd              → enter /etc/passwd
+```
 
 ## What is a Path Traversal Attack?
 

@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BINARY EXPLOITATION/Stack.md",
+                "file": "port swiggger/SSRF/payload.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack"
+              "title": "payload"
             }
           }
         ],
@@ -232,8 +232,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f08922ef637c9fb8",
+  "active": "d1e790a05c08ff6e",
   "lastOpenFiles": [
+    "port swiggger/SSRF/Notes from port swigger.md",
+    "port swiggger/SSRF/payload.md",
+    "port swiggger/Path traversal/payload.md",
+    "port swiggger/Path traversal/Notes from port swigger.md",
     "Untitled",
     "WEB EXPLOITATION/HTTP POOLING.md",
     "Information/web.md",
@@ -267,16 +271,12 @@
     "cryto/hash.md",
     "code/Java script.md",
     "code/html.md",
-    "Android/Notes.md",
-    "port swiggger/XSS/DOM.md",
-    "c++/hotel.md",
     "port swiggger/SSTI",
     "port swiggger/SSRF",
     "port swiggger/Path traversal",
     "port swiggger/JWT token",
     "port swiggger/API testing",
     "Untitled.base",
-    "Untitled 1.base",
     "Pasted image 20251008190929.png",
     "Pasted image 20250630113527.png",
     "Pasted image 20250612182632.png"
