@@ -18,23 +18,67 @@ There are various types of XXE attacks:
 
 To **read a file from the server**, you do two small changes in the XML:
 
-### Define an external entity (in `DOCTYPE`)
+## **Defining an External Entity (DOCTYPE)**
 
-You tell the XML parser:
+This is where the **attack is prepared**.
 
- “Create an entity that points to a file on the server.”
+You add (or modify) a `DOCTYPE` declaration to **define an external entity** that points to a file on the server’s filesystem.
 
-<!DOCTYPE data [   <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+### What it does
 
-Here, `xxe` represents the contents of `/etc/passwd`.
+- Tells the XML parser:  
+    👉 _“When you see this entity name, load the contents of this file.”_
+    
+- Uses system identifiers like `file://`.
+    
 
-### Use the entity in returned data
+### Example
 
-You place `&xxe;` in a field that the server **echoes back in the response**.
+`<!DOCTYPE foo [   <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>`
 
-`<username>&xxe;</username>`
+### Why this matters
 
-When the XML is processed, the parser **replaces `&xxe;` with the file contents**, and the application unknowingly returns it.
+- `xxe` becomes a **shortcut** for the file’s content.
+    
+- If external entities are enabled, the parser will **read the file**.
+    
+
+📌 **This step only defines the file — it does NOT leak it yet.**
+
+---
+
+## 2️ **Using the External Entity in Returned Data**
+
+This is where the **data is leaked**.
+
+You replace a normal XML value with a reference to the external entity so that its contents appear in the **application’s response**.
+
+### What it does
+
+- Injects the entity into a field that the server reflects back.
+    
+- Forces the application to **output the file contents**.
+    
+
+
+In this code ,
+```
+<!DOCTYPE foo [
+  <!ENTITY xxe SYSTEM "file:///etc/passwd">
+]>
+```
+
+### Example
+
+`<comment>&xxe;</comment>`
+
+## What **DOCTYPE** actually does here
+
+**DOCTYPE tells the XML parser to read extra rules before processing the XML data.**
+
+In this case, it says:
+
+> “Before you parse the XML content, here is a custom definition you must understand.”
 
 ## Lab 1:
 
