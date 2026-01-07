@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "port swiggger/XML or XXE/payload.md",
+                "file": "port swiggger/HTTP Host header attacks/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "payload"
+              "title": "Notes"
             }
           }
         ],
@@ -234,8 +234,12 @@
   },
   "active": "d1e790a05c08ff6e",
   "lastOpenFiles": [
-    "Information/web.md",
+    "port swiggger/SSTI/payload.md",
+    "port swiggger/HTTP Host header attacks/Notes.md",
+    "port swiggger/SSTI/Notes from port swigger.md",
+    "port swiggger/HTTP Host header attacks",
     "port swiggger/XML or XXE/payload.md",
+    "Information/web.md",
     "Information/etc pass.md",
     "Information/stuff.md",
     "port swiggger/XML or XXE/XML.md",
@@ -268,15 +272,11 @@
     "MYSQL/commands.md",
     "Forensic/Payload.md",
     "java/notes.md",
-    "Forensic/Notes.md",
-    "cryto/hash.md",
-    "code/Java script.md",
     "port swiggger/SSTI",
     "port swiggger/SSRF",
     "port swiggger/Path traversal",
     "port swiggger/JWT token",
     "port swiggger/API testing",
-    "Untitled.base",
     "Pasted image 20251008190929.png",
     "Pasted image 20250630113527.png",
     "Pasted image 20250612182632.png"
