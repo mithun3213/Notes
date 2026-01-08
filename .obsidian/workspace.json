@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "port swiggger/HTTP Host header attacks/Notes.md",
+                "file": "port swiggger/HTTP Host header attacks/Password reset poisoning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "Password reset poisoning"
             }
           }
         ],
@@ -234,8 +234,10 @@
   },
   "active": "d1e790a05c08ff6e",
   "lastOpenFiles": [
-    "port swiggger/SSTI/payload.md",
+    "port swiggger/HTTP Host header attacks/Web cache poisoning via the Host header.md",
+    "port swiggger/HTTP Host header attacks/Password reset poisoning.md",
     "port swiggger/HTTP Host header attacks/Notes.md",
+    "port swiggger/SSTI/payload.md",
     "port swiggger/SSTI/Notes from port swigger.md",
     "port swiggger/HTTP Host header attacks",
     "port swiggger/XML or XXE/payload.md",
@@ -270,8 +272,6 @@
     "networks/Computer Networks.md",
     "networks/OS.md",
     "MYSQL/commands.md",
-    "Forensic/Payload.md",
-    "java/notes.md",
     "port swiggger/SSTI",
     "port swiggger/SSRF",
     "port swiggger/Path traversal",
