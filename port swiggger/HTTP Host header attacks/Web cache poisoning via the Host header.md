@@ -264,3 +264,19 @@ When we see the X-Cache: hit , and when we visit the page , we got the pop menu 
 ----------
 
 
+## # Lab: Host header authentication bypass
+
+**Description :**
+
+This lab makes an assumption about the privilege level of the user based on the HTTP Host header.
+
+To solve the lab, access the admin panel and delete the user `carlos`.
+
+### Solution:
+
+At first when we visit the home page , there My-account page and then type the username admin as password password and then capture the request in the burpsuite and then try something , didn't work and then type robots.txt in the url , it shows that **Disallow: /admin**
+
+and then capture the request in the burp and then change the Host : to localhost and then send the request it works and then capture the request of the deleting the carlos account and then 
+capture the GET request and then change the Host : localhost and then hit the next and the lab got solved.
+
+
