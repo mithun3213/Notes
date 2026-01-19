@@ -280,3 +280,71 @@ and then capture the request in the burp and then change the Host : to localhost
 capture the GET request and then change the Host : localhost and then hit the next and the lab got solved.
 
 
+------------------------
+
+## What is _routing-based_ SSRF?
+
+Instead of the **application code** making a request (classic SSRF),  
+we abuse **network infrastructure** like:
+
+- Load balancers
+    
+- Reverse proxies
+    
+- API gateways
+    
+
+These components decide:
+
+> “Which backend should this request go to?”
+
+And **they often use the `Host` header to decide that**.
+
+### Key idea
+
+Routing-based SSRF abuses **request forwarding logic**, not application logic.
+
+---
+
+## The mistake (simple version)
+
+Some infrastructure does this:
+
+`If Host = api.company.com → send to API server If Host = admin.company.com → send to admin server`
+
+🚨 **But if they don’t validate Host properly**, an attacker can say:
+
+`Host: 192.168.1.10`
+
+And the proxy thinks:
+
+> “Oh, that’s the backend. I’ll forward it.”
+
+The proxy just connected to an **internal IP** for you.
+
+## Why this is powerful
+
+These routing systems:
+
+- Are **public-facing**
+    
+- Can access **private networks**
+    
+- Are **trusted internally**
+
+----
+# LAB: Routing-based SSRF
+
+**Description:**
+
+This lab is vulnerable to routing-based SSRF via the Host header. You can exploit this to access an insecure intranet admin panel located on an internal IP address.
+
+To solve the lab, access the internal admin panel located in the `192.168.0.0/24` range, then delete the user `carlos`.
+
+**Solution:**
+
+at first , we need to capture the request of the home page which result 200 OK response and then , they given the admin ip as `192.168.0.0/24 but , the 
+192.168.0.(0 to 255) , we need to send the request to intruder and then start the number attack and then find the number ip and the go /admin and and let take the number be 33
+so , `192.168.0.33` and then visit the /admin and host with the `192.168.0.33` and then copy the crsf value for the delete and then GET /admin/delete?crsf=value&username=carlos and then add the session to the request and labb solved
+
+-----

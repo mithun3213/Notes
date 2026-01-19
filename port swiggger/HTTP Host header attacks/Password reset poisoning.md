@@ -165,6 +165,7 @@ Now you use the stolen token on the real site:
 Set a new password → log in as **carlos** → lab solved 🎉
 
 ----
+
 ## What is `X-Forwarded-Host`? (very simple)
 
 **`X-Forwarded-Host` is an HTTP header that says:**
