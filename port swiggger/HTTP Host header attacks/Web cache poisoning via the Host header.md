@@ -348,3 +348,8 @@ at first , we need to capture the request of the home page which result 200 OK r
 so , `192.168.0.33` and then visit the /admin and host with the `192.168.0.33` and then copy the crsf value for the delete and then GET /admin/delete?crsf=value&username=carlos and then add the session to the request and labb solved
 
 -----
+## Connection State Attack - First-request validation
+
+In connection state attacks, some applications perform host header validation only on the first request in a connection. This means attackers can gain access to internal websites by issuing a request to a legitimate host name, followed by one for the internal site down the same connection. The connection state attack lab in portswigger site is vulnerable to routing based SSRF, you can get the [entry](https://portswigger.net/web-security/host-header/exploiting#connection-state-attacks) to the lab. Now we will go through the lab together.
+
+

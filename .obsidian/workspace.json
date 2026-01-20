@@ -75,16 +75,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "port swiggger/HTTP Host header attacks/Web cache poisoning via the Host header.md",
+                "file": "port swiggger/XML or XXE/XML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web cache poisoning via the Host header"
+              "title": "XML"
+            }
+          },
+          {
+            "id": "ab9da7becb073498",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information/web.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "web"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -232,15 +246,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1e790a05c08ff6e",
+  "active": "ab9da7becb073498",
   "lastOpenFiles": [
+    "port swiggger/XML or XXE/payload.md",
+    "port swiggger/HTTP Host header attacks/Web cache poisoning via the Host header.md",
     "port swiggger/HTTP Host header attacks/Password reset poisoning.md",
     "port swiggger/HTTP Host header attacks/Notes.md",
-    "port swiggger/HTTP Host header attacks/Web cache poisoning via the Host header.md",
     "port swiggger/SSTI/payload.md",
     "port swiggger/SSTI/Notes from port swigger.md",
     "port swiggger/HTTP Host header attacks",
-    "port swiggger/XML or XXE/payload.md",
     "Information/web.md",
     "Information/etc pass.md",
     "Information/stuff.md",
