@@ -96,9 +96,21 @@
               "icon": "lucide-file",
               "title": "web"
             }
+          },
+          {
+            "id": "02d0a8a6bfdb97c2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -246,7 +258,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab9da7becb073498",
+  "active": "02d0a8a6bfdb97c2",
   "lastOpenFiles": [
     "port swiggger/XML or XXE/payload.md",
     "port swiggger/HTTP Host header attacks/Web cache poisoning via the Host header.md",
