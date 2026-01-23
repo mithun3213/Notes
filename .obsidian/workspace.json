@@ -101,12 +101,14 @@
             "id": "02d0a8a6bfdb97c2",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.5"
+                "file": "port swiggger/Race Condition/Notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "icon": "lucide-file",
+              "title": "Notes"
             }
           }
         ],
@@ -260,6 +262,9 @@
   },
   "active": "02d0a8a6bfdb97c2",
   "lastOpenFiles": [
+    "port swiggger/Race Condition/labs.md",
+    "port swiggger/Race Condition/Notes.md",
+    "port swiggger/Race Condition",
     "port swiggger/XML or XXE/payload.md",
     "port swiggger/HTTP Host header attacks/Web cache poisoning via the Host header.md",
     "port swiggger/HTTP Host header attacks/Password reset poisoning.md",
@@ -296,13 +301,10 @@
     "Pasted image 20250719161342.png",
     "Pasted image 20250719161126.png",
     "networks/Computer Networks.md",
-    "networks/OS.md",
-    "MYSQL/commands.md",
     "port swiggger/SSTI",
     "port swiggger/SSRF",
     "port swiggger/Path traversal",
     "port swiggger/JWT token",
-    "port swiggger/API testing",
     "Pasted image 20251008190929.png",
     "Pasted image 20250630113527.png",
     "Pasted image 20250612182632.png"
