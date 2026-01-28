@@ -103,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "port swiggger/Race Condition/Notes.md",
+                "file": "WEB EXPLOITATION/CSP ( Content Security policy).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "CSP ( Content Security policy)"
             }
           }
         ],
@@ -262,8 +262,13 @@
   },
   "active": "02d0a8a6bfdb97c2",
   "lastOpenFiles": [
-    "port swiggger/Race Condition/labs.md",
+    "Pasted image 20260128184420.png",
+    "WEB EXPLOITATION/HTTP POOLING.md",
+    "WEB EXPLOITATION/CSP ( Content Security policy).md",
+    "Information/web.md",
+    "port swiggger/SSRF/Notes from port swigger.md",
     "port swiggger/Race Condition/Notes.md",
+    "port swiggger/Race Condition/labs.md",
     "port swiggger/Race Condition",
     "port swiggger/XML or XXE/payload.md",
     "port swiggger/HTTP Host header attacks/Web cache poisoning via the Host header.md",
@@ -272,16 +277,13 @@
     "port swiggger/SSTI/payload.md",
     "port swiggger/SSTI/Notes from port swigger.md",
     "port swiggger/HTTP Host header attacks",
-    "Information/web.md",
     "Information/etc pass.md",
     "Information/stuff.md",
     "port swiggger/XML or XXE/XML.md",
     "port swiggger/SSRF/payload.md",
-    "port swiggger/SSRF/Notes from port swigger.md",
     "port swiggger/Path traversal/payload.md",
     "port swiggger/Path traversal/Notes from port swigger.md",
     "Untitled",
-    "WEB EXPLOITATION/HTTP POOLING.md",
     "WEB EXPLOITATION",
     "BINARY EXPLOITATION/Stack.md",
     "BINARY EXPLOITATION/COMPUTING 101.md",
@@ -293,14 +295,12 @@
     "need to be learn.md",
     "Pasted image 20250604171217.png",
     "stuff to be completed in htb.md",
-    "stuff to be completed in portswigger.md",
     "port swiggger/XML or XXE",
     "Pasted image 20250719154436.png",
     "Pasted image 20251014192243.png",
     "Pasted image 20250811231000.png",
     "Pasted image 20250719161342.png",
     "Pasted image 20250719161126.png",
-    "networks/Computer Networks.md",
     "port swiggger/SSTI",
     "port swiggger/SSRF",
     "port swiggger/Path traversal",
