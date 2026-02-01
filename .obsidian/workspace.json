@@ -103,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB EXPLOITATION/CSP ( Content Security policy).md",
+                "file": "Information/web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSP ( Content Security policy)"
+              "title": "web"
             }
           }
         ],
@@ -262,9 +262,9 @@
   },
   "active": "02d0a8a6bfdb97c2",
   "lastOpenFiles": [
+    "WEB EXPLOITATION/CSP ( Content Security policy).md",
     "Pasted image 20260128184420.png",
     "WEB EXPLOITATION/HTTP POOLING.md",
-    "WEB EXPLOITATION/CSP ( Content Security policy).md",
     "Information/web.md",
     "port swiggger/SSRF/Notes from port swigger.md",
     "port swiggger/Race Condition/Notes.md",
@@ -306,7 +306,6 @@
     "port swiggger/Path traversal",
     "port swiggger/JWT token",
     "Pasted image 20251008190929.png",
-    "Pasted image 20250630113527.png",
-    "Pasted image 20250612182632.png"
+    "Pasted image 20250630113527.png"
   ]
 }
