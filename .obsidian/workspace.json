@@ -103,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information/web.md",
+                "file": "port swiggger/CSRF/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "web"
+              "title": "Notes"
             }
           }
         ],
@@ -262,10 +262,13 @@
   },
   "active": "02d0a8a6bfdb97c2",
   "lastOpenFiles": [
+    "Information/web.md",
+    "port swiggger/CSRF/Notes.md",
+    "port swiggger/CSRF",
+    "port swiggger/Untitled.md",
     "WEB EXPLOITATION/CSP ( Content Security policy).md",
     "Pasted image 20260128184420.png",
     "WEB EXPLOITATION/HTTP POOLING.md",
-    "Information/web.md",
     "port swiggger/SSRF/Notes from port swigger.md",
     "port swiggger/Race Condition/Notes.md",
     "port swiggger/Race Condition/labs.md",
@@ -294,7 +297,6 @@
     "Pasted image 20251217112343.png",
     "need to be learn.md",
     "Pasted image 20250604171217.png",
-    "stuff to be completed in htb.md",
     "port swiggger/XML or XXE",
     "Pasted image 20250719154436.png",
     "Pasted image 20251014192243.png",
@@ -304,7 +306,6 @@
     "port swiggger/SSTI",
     "port swiggger/SSRF",
     "port swiggger/Path traversal",
-    "port swiggger/JWT token",
     "Pasted image 20251008190929.png",
     "Pasted image 20250630113527.png"
   ]
