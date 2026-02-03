@@ -103,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "port swiggger/CSRF/Notes.md",
+                "file": "port swiggger/CSRF/Labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "Labs"
             }
           }
         ],
@@ -262,8 +262,9 @@
   },
   "active": "02d0a8a6bfdb97c2",
   "lastOpenFiles": [
-    "Information/web.md",
     "port swiggger/CSRF/Notes.md",
+    "port swiggger/CSRF/Labs.md",
+    "Information/web.md",
     "port swiggger/CSRF",
     "port swiggger/Untitled.md",
     "WEB EXPLOITATION/CSP ( Content Security policy).md",
@@ -295,7 +296,6 @@
     "hardware or firmware/notes.md",
     "hardware or firmware",
     "Pasted image 20251217112343.png",
-    "need to be learn.md",
     "Pasted image 20250604171217.png",
     "port swiggger/XML or XXE",
     "Pasted image 20250719154436.png",
