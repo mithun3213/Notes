@@ -105,3 +105,79 @@ The consequences of XSS vulnerabilities are generally more serious than for CSRF
 
 - CSRF often only applies to a subset of actions that a user is able to perform. Many applications implement CSRF defenses in general but overlook one or two actions that are left exposed. Conversely, a successful XSS exploit can normally induce a user to perform any action that the user is able to perform, regardless of the functionality in which the vulnerability arises.
 - CSRF can be described as a "one-way" vulnerability, in that while an attacker can induce the victim to issue an HTTP request, they cannot retrieve the response from that request. Conversely, XSS is "two-way", in that the attacker's injected script can issue arbitrary requests, read the responses, and exfiltrate data to an external domain of the attacker's choosing.
+
+----
+
+### CSRF token is tied to a non-session cookie
+
+## 1. The Core Problem: The "Disconnected" Security
+
+In a secure system, the **Session Cookie** (your ID) and the **CSRF Token** (your ticket) are locked together. In this vulnerable system, they are separate:
+
+- **Cookie 1 (`session`)**: Handled by the login framework. It identifies you as "Victim".
+    
+- **Cookie 2 (`csrfKey`)**: Handled by a separate security framework. It is used **only** to verify that the **CSRF Token** in the form matches.
+    
+
+The server checks if the `csrf` value in the form matches the `csrfKey` in the cookie, but it **forgets to check** if that `csrfKey` actually belongs to the person logged in via the `session` cookie.
+
+---
+
+## 2. How the Attacker Exploits This
+
+To win, the attacker must perform a "Double Injection." They need to force the victim's browser to use the attacker's own `csrfKey` and the attacker's own `csrf` token.
+
+### Step 1: The Attacker's Preparation
+
+The attacker logs into their own account and captures two pieces of data from their own browser:
+
+1. Their personal `csrfKey` cookie (e.g., `rZHCnSz...`).
+    
+2. Their personal `csrf` token (e.g., `RhV7yQD...`).
+    
+
+### Step 2: Setting the Trap (Cookie Injection)
+
+The attacker must find a way to "plant" their `csrfKey` cookie into the victim's browser. This is usually done through a separate vulnerability on the site that lets an attacker set cookies (like a search bar that reflects input into a cookie).
+
+### Step 3: The Malicious Page
+
+The attacker sends the victim to a malicious page containing a form like this:
+
+HTML
+
+```
+<form action="https://vulnerable-website.com/email/change" method="POST">
+    <input type="hidden" name="email" value="pwned@evil-user.net" />
+    <input type="hidden" name="csrf" value="RhV7yQDO0xcq9gLEah2WVbmuFqyOq7tY" />
+</form>
+```
+
+### Step 4: The Execution
+
+When the victim triggers the attack:
+
+1. The browser sends the victim's original **`session` cookie** (identifying them as the Victim).
+    
+2. The browser sends the attacker's **`csrfKey` cookie** (because it was planted in Step 2).
+    
+3. The form sends the attacker's **`csrf` token**.
+    
+
+### Step 5: The Server's Failure
+
+The server sees that the `csrf` token matches the `csrfKey` cookie and says, "Access Granted!". It then looks at the `session` cookie and changes the email for the **Victim's account**.
+
+**This** is a more complex "matching game" where the CSRF protection is handled by a different system than the login session.
+
+- **The Server's Logic:** "I see a `csrf` token in the form and a `csrfKey` in the cookies. Do they match each other? Yes? Then the request is safe."
+    
+- **The Flaw:** The server confirms the token and the `csrfKey` cookie match, but it **never checks** if that `csrfKey` belongs to the `session` cookie (the logged-in user).
+    
+- **Attacker's Strategy:** * The attacker gets their own matching pair: a `csrfKey` cookie and a `csrf` token.
+    
+    - **The Extra Step:** The attacker must first "inject" their `csrfKey` cookie into the victim's browser (usually using a secondary bug like CRLF injection or a cookie-setting vulnerability).
+        
+    - Once the victim's browser has the attacker's cookie, the attacker sends the malicious form with the matching token.
+
+------
