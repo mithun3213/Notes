@@ -117,12 +117,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information/web.md",
+                "file": "port swiggger/CSRF/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "web"
+              "title": "Notes"
             }
           }
         ],
@@ -276,8 +276,8 @@
   },
   "active": "d3a9d1160955631e",
   "lastOpenFiles": [
-    "port swiggger/CSRF/Notes.md",
     "port swiggger/CSRF/Labs.md",
+    "port swiggger/CSRF/Notes.md",
     "Information/web.md",
     "port swiggger/CSRF",
     "port swiggger/Untitled.md",
