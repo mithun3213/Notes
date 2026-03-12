@@ -131,12 +131,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stuff learned from the CTF/SSRF ( SERVER-SIDE REQUEST FORGERY).md",
+                "file": "Information/web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSRF ( SERVER-SIDE REQUEST FORGERY)"
+              "title": "web"
             }
           }
         ],
@@ -290,6 +290,7 @@
   },
   "active": "d34c531a576f865c",
   "lastOpenFiles": [
+    "Stuff learned from the CTF/SSRF ( SERVER-SIDE REQUEST FORGERY).md",
     "port swiggger/Path traversal/payload.md",
     "port swiggger/Path traversal/Notes from port swigger.md",
     "Information/web.md",
@@ -320,7 +321,6 @@
     "port swiggger/SSTI/Notes from port swigger.md",
     "port swiggger/HTTP Host header attacks",
     "Information/stuff.md",
-    "port swiggger/XML or XXE/XML.md",
     "Untitled",
     "WEB EXPLOITATION",
     "hardware or firmware",
