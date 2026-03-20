@@ -131,12 +131,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "port swiggger/PHP object injection/PHP  object injection.md",
+                "file": "port swiggger/Authentication/Labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PHP  object injection"
+              "title": "Labs"
             }
           }
         ],
@@ -290,11 +290,17 @@
   },
   "active": "d34c531a576f865c",
   "lastOpenFiles": [
-    "Information/web.md",
+    "port swiggger/Authentication/Notes.md",
+    "port swiggger/Authentication/Labs.md",
+    "port swiggger/HTTP Host header attacks/Web cache poisoning via the Host header.md",
+    "port swiggger/Authentication",
+    "port swiggger/HTTP Host header attacks/Password reset poisoning.md",
+    "port swiggger/HTTP Host header attacks/Notes.md",
+    "Stuff learned from the CTF/SSRF ( SERVER-SIDE REQUEST FORGERY).md",
     "port swiggger/PHP object injection/PHP  object injection.md",
+    "Information/web.md",
     "port swiggger/PHP object injection",
     "port swiggger/Untitled.md",
-    "Stuff learned from the CTF/SSRF ( SERVER-SIDE REQUEST FORGERY).md",
     "port swiggger/Path traversal/payload.md",
     "port swiggger/Path traversal/Notes from port swigger.md",
     "Information/etc pass.md",
@@ -316,11 +322,6 @@
     "port swiggger/Race Condition/labs.md",
     "port swiggger/Race Condition",
     "port swiggger/XML or XXE/payload.md",
-    "port swiggger/HTTP Host header attacks/Web cache poisoning via the Host header.md",
-    "port swiggger/HTTP Host header attacks/Password reset poisoning.md",
-    "port swiggger/HTTP Host header attacks/Notes.md",
-    "port swiggger/SSTI/payload.md",
-    "port swiggger/SSTI/Notes from port swigger.md",
     "port swiggger/HTTP Host header attacks",
     "Untitled",
     "WEB EXPLOITATION",
@@ -333,7 +334,6 @@
     "Pasted image 20250811231000.png",
     "Pasted image 20250719161342.png",
     "Pasted image 20250719161126.png",
-    "port swiggger/SSTI",
     "Pasted image 20251008190929.png",
     "Pasted image 20250630113527.png"
   ]
