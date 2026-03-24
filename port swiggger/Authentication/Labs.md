@@ -211,3 +211,28 @@ for pwd in passwords:
 
 ------------
 
+# Lab: Broken brute-force protection, multiple credentials per request
+
+Solution :
+
+1. With Burp running, investigate the login page. Notice that the `POST /login` request submits the login credentials in `JSON` format. Send this request to Burp Repeater.
+2. In Burp Repeater, replace the single string value of the password with an array of strings containing all of the candidate passwords. For example:
+    
+    `"username" : "carlos", "password" : [ "123456", "password", "qwerty" ... ]`
+3. Send the request. This will return a 302 response.
+4. Right-click on this request and select **Show response in browser**. Copy the URL and load it in the browser. The page loads and you are logged in as `carlos`.
+5. Click **My account** to access Carlos's account page and solve the lab.
+
+------------
+
+# Lab: 2FA simple bypass
+
+Solution:
+
+they have given the two creds , 
+`- Your credentials: `wiener:peter`
+- Victim's credentials `carlos:montoya`
+
+and at first login , when we give username:password as wiener:peter we have the email client where the verification code is sent , at that time the url becames /login2 , after the login2 the url becomes `my-account?id=wiener` , as same first we login through the creds carlos:montoya after submit it redirect to the login2 , so I changed the url  to `my-account?id=carlos` it logined and lab solved
+
+-----
